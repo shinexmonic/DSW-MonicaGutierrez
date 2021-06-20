@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<meta charset="utf-8">
+	<style type="text/css">  
+		nav li
+		{
+		    display:inline-block;
+		    position:relative;
+		}
+		               
+		nav li>ul
+		{
+		    display:none;
+		}
+
+		nav li:hover>ul
+		{
+	        display:block;
+	        position:absolute;
+		}
+	</style>
+	<title>Unidad 1- Fase 2 - Diseño y construcción</title>
+</header>
+<body>
+<nav>
+	<ul>
+		<li>
+        	<a href="#">Inicio</a>
+        </li>
+        <li>
+        	<a href="#">Temas</a>
+            <ul>
+            	<li><a href="">Tema 1</a></li>
+	            <li><a href="">Tema 2</a></li>
+	        </ul>
+        </li>
+        <li>
+        	<a href="#">Recursos digitales</a>
+            <ul>
+            	<li><a href="">Recurso 1</a></li>
+	            <li><a href="">Recurso 2</a></li>
+	        </ul>
+        </li>
+        <li>
+        	<a href="#">Aprendizaje</a>
+            <ul>
+            	<li><a href="">Actividad 1</a></li>
+	            <li><a href="">Actividad 2</a></li>
+	        </ul>
+        </li>
+        <li>
+        	<a href="#">Acerca de</a>
+            <ul>
+            	<li><a href="">Autor</a></li>
+	        </ul>
+        </li>
+    </ul>
+</nav>
+<section>
+	<h3>Propósito del sitio</h3>
+	El objeto de este sitio es informar al usuario sobre las diferentes etiquetas HTML, las mas importantes, cuando usarlas, para que, dando una breve descripción de estas se logre captar un mayor aprendizaje a traves de ejemplos y consultando sus atributos mínimos.
+</section>
+<article>
+	<h3>Estructura general etiquetas HTML</h3>
+	<span><</span><span>tag</span><span> attribute1="value1" attribute2="value2">content<span><</span><span>/tag></span>
+	<br>
+	O lo que es lo mismo, con un ejemplo:
+	<br>
+
+	<span><</span><span>a</span><span> href="http://www.enlace.com" target="_blank">Ejemplo de enlace</span><span><</span><span>/a></span>
+	<br>
+	Donde:
+
+	<span><</span><span>a></span> es la etiqueta o tag inicial y <span><</span>/a></span> 
+	la etiqueta de cierre.
+	<br>
+	href y target son los atributos.
+	<br>
+	http://www.enlace.com y _blank son las variables.
+	<br>
+	"Ejemplo de enlace" es el contenido.
+	<br>
+	Aunque también existen elementos vacíos que no necesitan tag de cierre, cuya estructura sería ésta:
+	<br>
+	<span><</span><span>tag attribute1="value1" attribute2="value2" /></span>
+	Recuperado de : https://www.arkaitzgarro.com/xhtml/capitulo-3.html
+
+	<h3>Las etiquetas HTML más relevantes</h3>
+
+	<b><span><</span><span>title>:</span></b> para definir el titulo de una página. Importantisimo para el SEO.
+	<br>
+	<b><span><</span>link></b> y <b><span><</span>style>:</b> ambas van dentro del <b><span><</span>head></b>, y sirven para aplicar estilos CSS a nuestro documento. Con <b><span><</span></b>link> vinculamos de forma externa un archivo.css, y con <b><span><</span>style></b> podemos escribir directamente código CSS dentro del head.
+	<br>
+	<b><span><</span>h1></b>, <b><span><</span>h2></b>, <b><span><</span>h3>…<span><</span>h6></b>: encabezados, numerados del 1 al 6 por orden de RELEVANCIA. El uso de estos encabezados es determinante para el SEO, porque es la mejor forma que tienen Google de entender la estructura de nuestro contenido y poder saber qué es lo relevante.
+	<br>
+	<b><span><</span>table></b>, <b><span><</span>tr></b> y <b><span><</span>td>:</b> son las tablas, las filas y las celdas. Están un poco obsoletas aunque a veces me han sacado de un apuro.
+	<br>
+	<b><span><</span>div>:</b> es un elemento “contendedor” de otras cosas. Realmente es lo que más se usa. Sabiendo manejar un <b><span><</span>div style=”loquenecesites”></b>contenido<b><span><</span>/div></b> puedes hacer casi todo. Podrás ver un ejemplo práctico al final del post.
+	<br>
+	<b><span><</span>a>:</b> para añadir enlaces. Dentro de ella tendremos dos atributos importantes, que son: href=”indica_la_URL_o_RUTA” y target=”self o _blank”, según quieras que el enlace se abra en la misma página o en una pestaña nueva.
+	<br>
+	<b><span><</span>img></b> es la etiqueta con la que se insertan las imágenes. Este es uno de los pocos casos que no necesita etiqueta de cierre, sino que vale con: <b><span><</span>img src=”rutadelaimagen” alt=”textoalternativo” /></b>, sin poner <b><span><</span>/img></b>
+
+	Recuperado de https://www.haciaelautoempleo.com/etiquetas-html-basicas/
+
+<!-- 	<h3>Texto</h3>
+	<h3>Enlaces</h3>
+	<h3>Listas</h3>
+	<h3>Imagenes</h3>
+
+	https://uniwebsidad.com/libros/xhtml/capitulo-2/etiquetas-y-atributos -->
+</article>
+<footer>
+	<p>Correo: mmgutierrezto@unadvirtual.edu.co</p>
+	<p>Skyoe: shinexmonic</p>
+	<p>Fecha Actualización: 20/06/2021</p>
+</footer>
+</body>
+</html>
