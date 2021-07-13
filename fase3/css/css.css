@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 nav{
-    background-color:#faf196;
+    background-color:#9a7bab;
     padding: 4px;
     
+}
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
 }
 pre {
     background-color: #e2e2e2;
@@ -23,7 +29,7 @@ pre {
     white-space: pre-wrap;
 }
 footer{
-    background-color: black;
+    background-color: #8c5464;
     color: blanchedalmond;
     padding: 20px;
     text-align: center;
@@ -55,8 +61,8 @@ section{
 }
 
 .color-div{
-    background: #587d92;
-    color: #e2e9ec;
+    background: #f7c3d2;
+    color: #75565f;
 }
 
 /*aside{
@@ -72,13 +78,13 @@ section{
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: #fccb90;
+    background: #e6b7e0;
     height: 50px;
     text-decoration: none;
 }
 
 .menu-area a:hover {
-    background: #efa54d;
+    background: #efc0e9;
     color: #fff;
 
 }
