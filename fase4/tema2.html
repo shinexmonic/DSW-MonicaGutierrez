@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<link rel="stylesheet" type="text/css" href="librerias/flexboxgrid-6.3.1/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/css.css">
+	<meta charset="utf-8">
+	<style type="text/css">
+	h1,h3{
+		color: white;
+	}  
+    b{
+        color: white;
+    }
+	</style>
+	<title>Unidad 1- Fase 2 - Diseño y construcción</title>
+</header>
+<body>
+<header>
+   <h1 style="color: black"> Etiquetas Básicas de HTML, atributos y valores</h1>
+</header>
+<nav class="menu-area">
+    <ul>
+        <li>
+            <a href="index.html">Inicio</a>
+        </li>
+        <li>
+            <a href="#">Temas</a>
+            <ul class="dropdown-1">
+                <li><a href="tema1.html">Etiquetas HTML Básicas</a></li>
+                <li><a href="tema2.html">Conceptos Básicos</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Recursos digitales</a>
+            <ul  class="dropdown-1">
+                <li><a href="recursos1.html">Conoce HTML</a></li>
+                <li><a href="recursos2.html">Etiquetas Básicas</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Aprendizaje</a>
+            <ul class="dropdown-1">
+                <li><a href="aprendizaje1.html">Actividad 1</a></li>
+                <li><a href="aprendizaje2.html">Actividad 2</a></li>
+            </ul>
+        </li>
+        <li><a href="autor.html">Autor</a></li>
+    </ul>
+</nav>
+<section>
+<div class="row color-div">
+    <div class="col-md-9">
+        <div class="box">
+            <h1>Conceptos Básicos</h1>
+            <br>
+            <p>
+               Orden de las etiquetas HTML
+            </p>
+            <img src="ordenhtml.jpg" width="600px">
+            <p>
+            En la parte superior del código siempre debemos tener una declaración para definir el tipo de documento que estamos por desplegar, el doctype.
+            </p>
+            <pre class="language-html"><code class="language-html">
+            &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+              "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+            </code></pre>
+            <p>
+                Después, dentro del elemento “html”, habrá otros dos que llevarán por nombre “head” y “body”.
+                <br>
+                El primer elemento contenido dentro de la etiqueta “html” es la llamada cabecera, identificada por la etiqueta “head” y que se encarga de contener información relativa al documento, tal es el caso de la etiqueta “title” que se coloca dentro de la cabecera para mostrar el título de la página que se mostrará en la barra superior de la ventana del navegador.
+                Después de tener bien definida la estructura de “head”, pasamos a declarar al elemento “body” el cual tendrá como función mostrar todo el contenido que es visible por el usuario. Por ello dentro de él se pueden usar la mayoría de las etiquetas con las que cuenta XHTML.
+            </p>
+            <pre class="language-html">
+                <code class="language-html">
+                    &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es"&gt;
+                        &lt;head&gt;
+                            ...
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                            &lt;!-- Contenido --&gt;
+                        &lt;/body&gt;
+                    &lt;/html&gt;
+                </code>
+            </pre>
+            <h3>Ejemplo página HTML</h3>      
+            <pre class="language-html">
+                <code class="language-html">
+                    &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+                    &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es"&gt;
+                      &lt;head&gt;
+                        &lt;title&gt;Título de la página&lt;/title&gt;
+                      &lt;/head&gt;
+
+                      &lt;body&gt;
+                        &lt;h1&gt;Encabezado de la página&lt;/h1&gt;
+                        &lt;h2&gt;Encabezado de menor tamaño&lt;/h2&gt;
+
+                        &lt;p&gt;Este es el texto de un párrafo.&lt;/p&gt;
+                        &lt;p&gt;Este es el texto de otro párrafo. Dentro de este párrafo,
+                        pueden ir palabras &lt;strong&gt;en negrita&lt;/strong&gt;, &lt;em&gt;en cursiva&lt;/em&gt; o lo
+                        que quieras.&lt;/p&gt;
+
+                        &lt;p&gt;También podemos poner listas como la siguiente:&lt;/p&gt;
+                        &lt;ul&gt;
+                          &lt;li&gt;Guión número uno.&lt;/li&gt;
+                          &lt;li&gt;Guión número dos.&lt;/li&gt;
+                          &lt;li&gt;Guión número tres.&lt;/li&gt;
+                        &lt;/ul&gt;
+                      &lt;/body&gt;
+
+                    &lt;/html&gt;
+                </code>
+            </pre>
+        </div>
+        Lawebera (2020). Conceptos Básicos. Recuperado <a href="https://www.lawebera.es/xhtml-css/conceptos-basicos-html.php" style="color: #8752a5">https://www.lawebera.es/xhtml-css/conceptos-basicos-html.php</a>
+        <br>
+        <br>
+    </div>
+    <div class="col-md-3">
+        <aside>
+            <div class="fb-page" data-href="https://www.facebook.com/UniversidadUNAD" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/UniversidadUNAD" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UniversidadUNAD">Universidad Nacional Abierta y a Distancia - UNAD Colombia</a></blockquote></div>
+        </aside>
+    </div>
+    <div class="col-md-12">
+        <footer>Monica Gutierrez, todos los derechos reservados ©</footer>
+    </div>
+</div>
+
+</section>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v11.0" nonce="4QcCs5Gw"></script>
+</body>
+</html>

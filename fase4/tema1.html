@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<link rel="stylesheet" type="text/css" href="librerias/flexboxgrid-6.3.1/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/css.css">
+	<meta charset="utf-8">
+	<style type="text/css">
+	h1,h3{
+		color: white;
+	}  
+    b{
+        color: white;
+    }
+	</style>
+	<title>Unidad 1- Fase 2 - Diseño y construcción</title>
+</header>
+<body>
+<header>
+   <h1 style="color: black"> Etiquetas Básicas de HTML, atributos y valores</h1>
+</header>
+<nav class="menu-area">
+    <ul>
+        <li>
+            <a href="index.html">Inicio</a>
+        </li>
+        <li>
+            <a href="#">Temas</a>
+            <ul class="dropdown-1">
+                <li><a href="tema1.html">Etiquetas HTML Básicas</a></li>
+                <li><a href="tema2.html">Conceptos Básicos</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Recursos digitales</a>
+            <ul  class="dropdown-1">
+                <li><a href="recursos1.html">Conoce HTML</a></li>
+                <li><a href="recursos2.html">Etiquetas Básicas</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Aprendizaje</a>
+            <ul class="dropdown-1">
+                <li><a href="aprendizaje1.html">Actividad 1</a></li>
+                <li><a href="aprendizaje2.html">Actividad 2</a></li>
+            </ul>
+        </li>
+        <li><a href="autor.html">Autor</a></li>
+    </ul>
+</nav>
+<section>
+<div class="row color-div">
+    <div class="col-md-9">
+        <div class="box">
+            <h1>Etiquetas HTML Básicas</h1>
+            <p>
+        	   Hay una serie de etiquetas que son las más usadas para crear cualquier documento HTML, a continuación las explicamos:</p>
+            <p>
+            <br>
+                <ul>
+                    <li>
+                        <b><span><</span><span>body></span></b> para el contenido
+                    </li>
+                    <li>
+                        <b><span><</span><span>head></span></b> para información sobre el documento
+                    </li>
+                    <li>
+                        <b><span><</span><span>div></span></b> división dentro del contenido
+                    </li>
+                    <li>
+                        <b><span><</span><span>a></span></b> para enlaces
+                    </li>
+                    <li>
+                        <b><span><</span><span>strong></span></b> para poner el texto en negrita
+                    </li>
+                    <li>
+                        <b><span><</span>span><span>br></span></b> para saltos de línea
+                    </li>
+                    <li>
+                        <b><span><</span><span>H1>…</span><span><</span>H6></b> para títulos dentro del contenido
+                    </li>
+                    <li>
+                        <b><span><</span>img></b> para añadir imágenes al documento
+                    </li>
+                    <li>
+                        <b><span><</span>ol></b> para listas ordenadas, <b><span><</span>ul></b> para listas desordenadas, <b><span><</span>li></b> para elementos dentro de la lista
+                    </li>
+                    <li>
+                        <b><span><</span>p></b> para parágrafos
+                    </li>
+                    <li>
+                        <b><span><</span>span></b> para estilos de una parte del texto
+                    </li>
+                    <li>
+                        <b><span><</span>body><span><</span>/body></b>
+                        <br>
+                        Indica la parte del cuerpo del contenido de un documento HTML. Es una etiqueta esencial para cualquier documento ya que indica donde empieza el contenido visible del documento.
+                    </li>
+                    <li>
+                        <b><span><</span>head><span><</span>/head></b>
+                        La parte superior del documento HTML, es donde podremos indicar los metadatos: título del documento, hojas de estilos, javaScript, CSS…
+                    </li>
+                    <li>
+                        <b><span>div></span><span></</span>div></b>
+                        Un elemento que es usado mayoritariamente para agrupar otros elementos y actuar como plantilla de otros controles. La etiqueta <span><</span>div> nos ayuda a estructurar el documento en secciones.
+                    </li>
+                    <li>
+                        <b><span><</span>a> <span><</span>/a></b>
+                        Es una etiqueta que nos ayuda a poder crear un enlace a una página web. El atributo principal de la etiqueta HTML es href, donde pondremos el enlace al que queremos conectar. Otro atributo muy usado es target, el cual nos sirve para indicar si el enlace se abrirá en una nueva ventana o en la misma.
+                    </li>
+                    <li>
+                        <b><span><</span>strong><span> <</span>/strong></b>
+                        Si tienes mucho texto, es importante poder dar énfasis a una parte en concreto, con la etiqueta strong lo podemos hacer.
+                    </li>
+                    <li>
+                        <b><span><</span>br></b>
+                        Con esta etiqueta HTML le podemos decir al navegador que viene un salto de línea. Nos sirve para hacer el texto más leíble.
+                    </li>
+                    <li>
+                        <b><span><</span>H1> <span><</span>/H1> … <span><</span>H6><span> <</span>/H6></b>
+                        Hay diferentes niveles de títulos, del 1 al 6. Las etiquetas <span><</span>H + número> nos permiten indicar la importancia del título y para estructurar el contenido, de esta forma ayudamos a los bots a entender la importancia del contenido.
+                    </li>
+                    <li>
+                        <b><span><</span>IMG><span> <</span>/IMG></b>
+                        Usamos la etiqueta IMG para mostrar imágenes dentro del contenido. Necesita el atributa src para funcionar, ya que será donde indicaremos desde donde tiene que mostrar la imagen.
+                    </li>
+                    <li>
+                        <b><span><</span>OL><span> <</span>li><span><</span>/li> <span><</span>OL> | <span><</span>UL> <span><</span>li><span><</span>/li> <span><</span>UL></b>
+                        Las etiquetas OL y LI nos sirven para crear listas, OL para listas ordenadas y UL para listas sin orden, dentro de las listas, los elementos se identifican con la etiqueta LI.
+                    </li>
+                    <li>
+                        <b><span><</span>P><span> <</span>/P></b>
+                        Etiqueta que nos sirve para agrupar texto dentro de un parágrafo. El propósito es poder hacer el contenido más fácil de leer y organizado.
+                    </li>
+                    <li>
+                        <b><span><</span>SPAN> <span><</span>/SPAN></b>
+                        Con la etiqueta podemos personalizar el estilo de solamente una parte del texto.
+                    </li>
+                </ul>
+                <br>
+                Iebshool (2020). Etiquetas HTML. Recuperado de: <a href="https://www.iebschool.com/blog/que-es-etiqueta-html-analitica-usabilidad/" style="color: #8752a5">https://www.iebschool.com/blog/que-es-etiqueta-html-analitica-usabilidad/</a>
+                <br>
+                <br>
+            </p>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <aside>
+            <div class="fb-page" data-href="https://www.facebook.com/UniversidadUNAD" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/UniversidadUNAD" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UniversidadUNAD">Universidad Nacional Abierta y a Distancia - UNAD Colombia</a></blockquote></div>
+        </aside>
+    </div>
+    <div class="col-md-12">
+        <footer>Monica Gutierrez, todos los derechos reservados ©</footer>
+    </div>
+</div>
+
+</section>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v11.0" nonce="4QcCs5Gw"></script>
+</body>
+</html>
